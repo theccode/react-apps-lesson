@@ -4,10 +4,16 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Grid } from './Grid';
+import { Table } from './Table';
+import { Form } from "./Form";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Grid /> */}
+    <Form />
+    {/* <Table /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
